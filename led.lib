@@ -1,0 +1,5 @@
+* LED model
+.subckt LED anode cathode
+D1 anode cathode LED
+.model LED D(IS=1e-15)
+.ends
